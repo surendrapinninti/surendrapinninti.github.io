@@ -2,20 +2,20 @@
 /********* General CSS *********/
 /*******************************/
 body {
-    color: #213546;
-    background: #eeeeee;
+    color: #2C3E50;
+    background: #E0F6FF;
     font-family: 'Raleway', sans-serif;
 }
 
 a {
-    color: #4F84C4;
+    color: #20B2AA;
     transition: .3s;
 }
 
 a:hover,
 a:active,
 a:focus {
-    color: #00539C;
+    color: #FF1493;
     outline: none;
     text-decoration: none;
 }
@@ -56,13 +56,16 @@ a:focus {
 
 .header .brand {
     position: relative;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
 }
 
 .header .brand img {
     width: 100%;
-    max-width: 150px;
-    height: 100%;
-    max-height: 100px;
+    max-width: 200px;
+    height: auto;
+    max-height: 80px;
 }
 
 .header .topbar {
@@ -77,13 +80,13 @@ a:focus {
 }
 
 .header .topbar-col a {
-    color: #213546;
+    color: #2C3E50;
     font-size: 13px;
 }
 
 .header .topbar-col a i {
     margin-right: 10px;
-    color: #4F84C4;
+    color: #20B2AA;
 }
 
 .header .topbar-social {
@@ -105,7 +108,7 @@ a:focus {
 }
 
 .header .topbar-social a:hover i {
-    color: #4F84C4;
+    color: #20B2AA;
 }
 
 .header .dropdown-menu {
@@ -116,7 +119,7 @@ a:focus {
 }
 
 .header .dropdown-menu a.active {
-    color: #4F84C4;
+    color: #20B2AA;
 }
 
 @media (min-width: 992px) {
@@ -131,14 +134,14 @@ a:focus {
     .header .navbar-light a.nav-link {
         position: relative;
         padding: 8px 10px;
-        color: #213546;
+        color: #2C3E50;
         font-size: 16px;
         z-index: 1;
     }
     
     .header .navbar-light a.nav-link:hover,
     .header .navbar-light a.nav-link.active {
-        color: #4F84C4;
+        color: #20B2AA;
     }
 }
 
@@ -146,6 +149,12 @@ a:focus {
     .header .brand {
         text-align: center;
         margin-bottom: 15px;
+        justify-content: center;
+    }
+    
+    .header .brand img {
+        max-width: 180px;
+        max-height: 70px;
     }
     
     .header .topbar {
@@ -186,12 +195,12 @@ a:focus {
     color: #ffffff;
     border: none;
     border-radius: 30px;
-    background: linear-gradient(#4F84C4, #00539C);
+    background: linear-gradient(#20B2AA, #9370DB);
     transition: .5s;
 }
 
 .header .navbar .btn:hover {
-    background: linear-gradient(#00539C, #4F84C4);
+    background: linear-gradient(#20B2AA, #9370DB);
 }
 
 .header .navbar .btn i {
@@ -214,7 +223,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 80px 0;
     text-align: center;
-    background: linear-gradient(to right, #00539C, #4F84C4 50%);
+    background: linear-gradient(to right, #9370DB, #20B2AA 50%);
 }
 
 .page-header h2 {
@@ -264,6 +273,39 @@ a:focus {
 }
 
 /* Enhanced Modern Styling for NAWAL SOLUTIONS */
+
+/* Additional accent colors from logo */
+.accent-magenta {
+    color: #FF1493;
+}
+
+.accent-purple {
+    color: #9370DB;
+}
+
+.accent-teal {
+    color: #20B2AA;
+}
+
+/* Enhanced hover effects with logo colors */
+.nav-item:hover {
+    color: #FF1493 !important;
+}
+
+/* Service icons with logo colors */
+.service-item:hover h3 {
+    color: #9370DB;
+}
+
+/* Team social icons */
+.team-social a:hover {
+    color: #FF1493;
+}
+
+/* Footer links with logo colors */
+.footer-link a:hover {
+    color: #FF1493;
+}
 .hero h2 {
     margin: 0;
     font-size: 48px;
@@ -272,8 +314,8 @@ a:focus {
 }
 
 .hero h2 span {
-    color: #4F84C4;
-    background: linear-gradient(45deg, #4F84C4, #00539C);
+    color: #20B2AA;
+    background: linear-gradient(45deg, #20B2AA, #9370DB);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -321,7 +363,7 @@ a:focus {
 .call-to-action {
     position: relative;
     padding: 60px 0;
-    background: linear-gradient(135deg, #00539C 0%, #4F84C4 50%, #00539C 100%);
+    background: linear-gradient(135deg, #9370DB 0%, #20B2AA 50%, #9370DB 100%);
     background-size: 200% 200%;
     animation: gradientShift 6s ease infinite;
 }
@@ -352,13 +394,13 @@ a:focus {
 .testimonial .testimonial-slider h3 {
     font-size: 22px;
     font-weight: 700;
-    color: #213546;
+    color: #2C3E50;
     margin-bottom: 5px;
 }
 
 .testimonial .testimonial-slider h4 {
     font-size: 16px;
-    color: #4F84C4;
+    color: #20B2AA;
     font-weight: 500;
     margin-bottom: 15px;
 }
@@ -387,7 +429,7 @@ a:focus {
     height: 4px;
     left: calc(50% - 40px);
     bottom: 0;
-    background: linear-gradient(to right, #4F84C4, #00539C, #4F84C4);
+    background: linear-gradient(to right, #20B2AA, #9370DB, #20B2AA);
     border-radius: 2px;
 }
 
@@ -411,7 +453,7 @@ a:focus {
 }
 
 .footer .footer-link a:hover {
-    color: #4F84C4;
+    color: #20B2AA;
     padding-left: 10px;
 }
 
@@ -431,7 +473,7 @@ a:focus {
 }
 
 .hero h2 span {
-    color: #4F84C4;
+    color: #20B2AA;
 }
 
 .hero p {
@@ -449,12 +491,12 @@ a:focus {
     color: #ffffff;
     border: none;
     border-radius: 50px;
-    background: linear-gradient(#4F84C4, #00539C);
+    background: linear-gradient(#20B2AA, #9370DB);
     transition: .5s;
 }
 
 .hero a.btn:hover {
-    background: linear-gradient(#00539C, #4F84C4);
+    background: linear-gradient(#20B2AA, #9370DB);
 }
 
 .hero img {
@@ -489,7 +531,7 @@ a:focus {
     height: 3px;
     left: calc(50% - 30px);
     bottom: 0;
-    background: linear-gradient(to left, #4F84C4, #00539C, #4F84C4);
+    background: linear-gradient(to left, #20B2AA, #9370DB, #20B2AA);
     border-radius: 100%;
 }
 
@@ -682,7 +724,7 @@ a:focus {
     height: 3px;
     bottom: 0;
     left: 0;
-    background: linear-gradient(to left, #4F84C4, #00539C, #4F84C4);
+    background: linear-gradient(to left, #20B2AA, #9370DB, #20B2AA);
     border-radius: 0 100% 100% 0; 
 }
 
@@ -699,12 +741,12 @@ a:focus {
     color: #ffffff;
     border: none;
     border-radius: 50px;
-    background: linear-gradient(#4F84C4, #00539C);
+    background: linear-gradient(#20B2AA, #9370DB);
     transition: .5s;
 }
 
 .service-row a.btn:hover {
-    background: linear-gradient(#00539C, #4F84C4);
+    background: linear-gradient(#20B2AA, #9370DB);
 }
 
 .service-row .service-row-col .col-sm-6 {
@@ -721,7 +763,7 @@ a:focus {
     padding: 8px 0;
     text-align: center;
     color: #ffffff;
-    background: #4F84C4;
+    background: #20B2AA;
 }
 
 .service-row .service-row-col-text {
@@ -791,12 +833,12 @@ a:focus {
     height: 3px;
     bottom: 0;
     left: 0;
-    background: linear-gradient(to left, #4F84C4, #00539C, #4F84C4);
+    background: linear-gradient(to left, #20B2AA, #9370DB, #20B2AA);
     border-radius: 0 100% 100% 0;
 }
 
 .about p {
-    color: #213546;
+    color: #2C3E50;
     font-size: 16px;
     margin-bottom: 30px;
 }
@@ -809,12 +851,12 @@ a:focus {
     color: #ffffff;
     border: none;
     border-radius: 50px;
-    background: linear-gradient(#4F84C4, #00539C);
+    background: linear-gradient(#20B2AA, #9370DB);
     transition: .5s;
 }
 
 .about a.btn:hover {
-    background: linear-gradient(#00539C, #4F84C4);
+    background: linear-gradient(#20B2AA, #9370DB);
 }
 
 .about img {
@@ -963,7 +1005,7 @@ a:focus {
     height: 3px;
     bottom: 0;
     left: 0;
-    background: linear-gradient(to left, #4F84C4, #00539C, #4F84C4);
+    background: linear-gradient(to left, #20B2AA, #9370DB, #20B2AA);
     border-radius: 0 100% 100% 0;
 }
 
@@ -987,7 +1029,7 @@ a:focus {
     display: block;
     width: 100%;
     padding: 15px 20px 12px 20px;
-    color: #213546;
+    color: #2C3E50;
     font-size: 16px;
     font-weight: 400;
     background: #ffffff;
@@ -999,7 +1041,7 @@ a:focus {
     font-family: 'font Awesome 5 Free';
     content: "\f067";
     float: right;
-    color: #00539C;
+    color: #9370DB;
     font-size: 12px;
     font-weight: 900;
     transition: .3s;
@@ -1009,7 +1051,7 @@ a:focus {
     font-family: 'font Awesome 5 Free';
     content: "\f068";
     float: right;
-    color: #00539C;
+    color: #9370DB;
     font-size: 12px;
     font-weight: 900;
     transition: .3s;
@@ -1032,12 +1074,12 @@ a:focus {
     color: #ffffff;
     border: none;
     border-radius: 50px;
-    background: linear-gradient(#4F84C4, #00539C);
+    background: linear-gradient(#20B2AA, #9370DB);
     transition: .5s;
 }
 
 .faqs a.btn:hover {
-    background: linear-gradient(#00539C, #4F84C4);
+    background: linear-gradient(#20B2AA, #9370DB);
 }
 
 .faqs img {
@@ -1181,7 +1223,7 @@ a:focus {
     height: 3px;
     bottom: 0;
     left: 0;
-    background: linear-gradient(to left, #4F84C4, #00539C, #4F84C4);
+    background: linear-gradient(to left, #20B2AA, #9370DB, #20B2AA);
     border-radius: 0 100% 100% 0; 
 }
 
@@ -1198,12 +1240,12 @@ a:focus {
     color: #ffffff;
     border: none;
     border-radius: 50px;
-    background: linear-gradient(#4F84C4, #00539C);
+    background: linear-gradient(#20B2AA, #9370DB);
     transition: .5s;
 }
 
 .news a.btn:hover {
-    background: linear-gradient(#00539C, #4F84C4);
+    background: linear-gradient(#20B2AA, #9370DB);
 }
 
 .news img {
@@ -1225,7 +1267,7 @@ a:focus {
 .call-to-action {
     position: relative;
     padding: 50px 0;
-    background: linear-gradient(to right, #00539C, #4F84C4 50%);
+    background: linear-gradient(to right, #9370DB, #20B2AA 50%);
 }
 
 .service-page .call-to-action {
@@ -1303,7 +1345,7 @@ a:focus {
     margin: 0;
     padding: 30px 0;
     text-align: center;
-    background: linear-gradient(#4F84C4, #00539C);
+    background: linear-gradient(#20B2AA, #9370DB);
     border-radius: 100px;
     box-shadow: 0 0 5px rgba(0, 0, 0, .4);
     color: #ffffff;
@@ -1329,7 +1371,7 @@ a:focus {
     top: 0;
     left: 50%;
     margin-left: -1px;
-    background: #4F84C4;
+    background: #20B2AA;
 }
 
 .story .row.story-left,
@@ -1355,7 +1397,7 @@ a:focus {
     width: 14px;
     height: 14px;
     top: 45px;
-    background: linear-gradient(#4F84C4, #00539C);
+    background: linear-gradient(#20B2AA, #9370DB);
     box-shadow: 0 0 5px rgba(0, 0, 0, .4);
     border-radius: 15px;
     z-index: 1;
@@ -1456,7 +1498,7 @@ a:focus {
 
 .story .story-icon i {
     font-size: 25px;
-    color: #4F84C4;
+    color: #20B2AA;
 }
 
 .story .story-icon img {
@@ -1643,7 +1685,7 @@ a:focus {
     font-size: 14px;
     text-transform: uppercase;
     border-radius: 30px;
-    background: linear-gradient(#4F84C4, #00539C);
+    background: linear-gradient(#20B2AA, #9370DB);
     border: 1px solid #4F84C4;
     transition: .5s;
 }
@@ -1651,7 +1693,7 @@ a:focus {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
     background: #ffffff;
-    color: #213546;
+    color: #2C3E50;
 }
 
 .portfolio .load-more {
@@ -1665,7 +1707,7 @@ a:focus {
 }
 
 .portfolio .load-more .btn:hover {
-    background: linear-gradient(#00539C, #4F84C4);
+    background: linear-gradient(#20B2AA, #9370DB);
 }
 
 .portfolio .portfolio-item {
@@ -1707,7 +1749,7 @@ a:focus {
     width: 45px;
     height: 35px;
     border-radius: 6px;
-    background: linear-gradient(#4F84C4, #00539C);
+    background: linear-gradient(#20B2AA, #9370DB);
     transition: 0.5s;
 }
 
@@ -1720,7 +1762,7 @@ a:focus {
 
 .portfolio .portfolio-item figure .link-preview:hover,
 .portfolio .portfolio-item figure .link-details:hover {
-    background: linear-gradient(#00539C, #4F84C4);
+    background: linear-gradient(#9370DB, #20B2AA);
 }
 
 .portfolio .portfolio-item figure .link-preview:hover i,
@@ -1795,7 +1837,7 @@ a:focus {
     height: 3px;
     bottom: 0;
     left: 0;
-    background: linear-gradient(to left, #4F84C4, #00539C, #4F84C4);
+    background: linear-gradient(to left, #20B2AA, #9370DB, #20B2AA);
     border-radius: 0 100% 100% 0;
 }
 
@@ -1914,7 +1956,7 @@ a:focus {
     height: 3px;
     bottom: 0;
     left: 0;
-    background: linear-gradient(to left, #4F84C4, #00539C, #4F84C4);
+    background: linear-gradient(to left, #20B2AA, #9370DB, #20B2AA);
     border-radius: 0 100% 100% 0; 
 }
 
