@@ -22,6 +22,37 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        
+        <!-- Logo z-index enhancement and Sticky Header -->
+        <style>
+            .brand {
+                position: relative;
+                z-index: 9999;
+            }
+            
+            .brand img {
+                position: relative;
+                z-index: 9999;
+            }
+            
+            /* Sticky Header */
+            .header {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                width: 100%;
+                z-index: 9998;
+                background: white;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                transition: all 0.3s ease;
+            }
+            
+            /* Add padding to body to account for fixed header */
+            body {
+                padding-top: 80px;
+            }
+        </style>
     </head>
 
     <body>
@@ -40,10 +71,10 @@
                         <div class="col-lg-10">
                             <div class="topbar">
                                 <div class="topbar-col">
-                                    <a href="tel:+012 345 67890"><i class="fa fa-phone-alt"></i>+012 345 67890</a>
+                                    <a href="tel:+19252680002"><i class="fa fa-phone-alt"></i>+1 9252680002</a>
                                 </div>
                                 <div class="topbar-col">
-                                    <a href="mailto:info@example.com"><i class="fa fa-envelope"></i>info@example.com</a>
+                                    <a href="mailto:srinisett@nawalsolutions.com"><i class="fa fa-envelope"></i>srinisett@nawalsolutions.com</a>
                                 </div>
                                 <div class="topbar-col">
                                     <div class="topbar-social">
@@ -302,9 +333,8 @@
                                     NAWAL SOLUTIONS is a leading technology company specializing in innovative digital solutions, cloud computing, AI & machine learning, and comprehensive digital transformation services. We help businesses thrive in the digital age.
                                 </p>
                                 <br>
-                                <p><i class="fa fa-map-marker-alt"></i>123 Innovation Drive, Tech City, TC 12345</p>
-                                <p><i class="fa fa-phone-alt"></i>+1 (555) NOVEL-01</p>
-                                <p><i class="fa fa-envelope"></i>info@novelsolutions.com</p>
+                                <p><i class="fa fa-phone-alt"></i>+1 9252680002</p>
+                                <p><i class="fa fa-envelope"></i>srinisett@nawalsolutions.com</p>
                             </div>
                         </div>
                         <div class="col-md-7">

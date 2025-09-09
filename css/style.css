@@ -49,7 +49,7 @@ a:focus {
 
 @media (min-width: 1200px) {
     .header .container-fluid {
-        padding-left: 60px;
+        padding-left: 40px;
         padding-right: 60px;
     }
 }
@@ -62,10 +62,9 @@ a:focus {
 }
 
 .header .brand img {
-    width: 100%;
-    max-width: 200px;
-    height: auto;
-    max-height: 80px;
+    max-width: 360px;
+    max-height: 190px;
+    transition: .5s;
 }
 
 .header .topbar {
@@ -153,8 +152,8 @@ a:focus {
     }
     
     .header .brand img {
-        max-width: 180px;
-        max-height: 70px;
+        max-width: 250px;
+        max-height: 100px;
     }
     
     .header .topbar {
